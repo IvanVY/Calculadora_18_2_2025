@@ -10,7 +10,7 @@ namespace SumaNum
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-
+            //falta validar que los campos no estén vacíos y que sean numéricos
             int num1 = int.Parse(tbNum1.Text);
             int num2 = int.Parse(tbNum2.Text);
             
