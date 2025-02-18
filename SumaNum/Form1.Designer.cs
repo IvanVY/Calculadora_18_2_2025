@@ -165,9 +165,10 @@
             Controls.Add(label1);
             Font = new Font("Castellar", 9F, FontStyle.Italic, GraphicsUnit.Point, 0);
             ForeColor = SystemColors.Desktop;
+            FormBorderStyle = FormBorderStyle.FixedDialog;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(4, 3, 4, 3);
-            MinimizeBox = false;
+            MaximizeBox = false;
             Name = "Form1";
             Text = "Controles";
             ResumeLayout(false);
