@@ -51,7 +51,20 @@ namespace SumaNum
                 MessageBox.Show("La división es: " + mat.dividir());
                 result.Text = ("El resultado es: " + mat.dividir().ToString());
             }
-            return 0;
+            else if (residuo.Checked)
+            {
+                mat.dividir();
+                MessageBox.Show("El residuo es: " + mat.residuo());
+                result.Text = ("El resultado es: " + mat.residuo().ToString());
+            }
+                return 0;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Persona1 p = new Persona1();
+            p.Show();
+        }
+
     }
 }
